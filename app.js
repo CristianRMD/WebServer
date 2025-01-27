@@ -11,21 +11,21 @@ app.use(express.static('public')); //definicion de midelware express. si public 
 
 app.get('/', (req,res) => {
   res.render('home', { // estos son los argumentos
-    nombre: 'Armando David',
+    nombre: 'Cristian Morales',
     titulo: 'Curso de Node'
   });
 })
 
 app.get('/elements', (req, res) => {
     res.render('elements', {
-      nombre: 'Armando David',
+      nombre: 'Cristian Morales',
       titulo: 'Curso de Node'
     })
   });
 
   app.get('/generic', (req, res) => {
     res.render('generic', {
-      nombre: 'Armando David',
+      nombre: 'Cristian Morales',
       titulo: 'Curso de Node'
     })
   });
